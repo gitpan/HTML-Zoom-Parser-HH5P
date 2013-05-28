@@ -4,12 +4,6 @@ author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
-  HTML::Zoom: 0
-  HTML::Zoom::CodeStream: 0
-  HTML::Zoom::FilterBuilder: 0
-  HTML::Zoom::FilterStream: 0
-  HTML::Zoom::Producer::BuiltIn: 0
-  HTML::Zoom::SelectorParser: 0
   strictures: 1
 configure_requires:
   ExtUtils::MakeMaker: 6.59
@@ -31,7 +25,7 @@ no_index:
 requires:
   HTML::HTML5::Entities: 0
   HTML::HTML5::Parser: 0.206
-  HTML::Zoom::SubObject: 0
+  HTML::Zoom: 0.009007
   Moo: 1.000000
   XML::LibXML: 2
   namespace::clean: 0
@@ -41,4 +35,4 @@ resources:
   homepage: https://metacpan.org/release/HTML-Zoom-Parser-HH5P
   license: http://dev.perl.org/licenses/
   repository: https://metacpan.org/release/HTML-Zoom-Parser-HH5P
-version: 0.001
+version: 0.002
